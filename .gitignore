@@ -1,5 +1,20 @@
-limpieza.py
+#limpieza.py
+
+#dotcopy.py
+
+#update.sh
+
+#qtile/__pycache__
+
+#ranger/__pycache__
+
+
+# Archivos específicos
 dotcopy.py
+limpieza.py
 update.sh
-qtile/__pycache__
-ranger/__pycache__
+
+# Carpetas específicas
+qtile/__pycache__/
+ranger/__pycache__/
+ranger/plugin/__pycache__/
