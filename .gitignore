@@ -17,4 +17,4 @@ update.sh
 # Carpetas específicas
 qtile/__pycache__/
 ranger/__pycache__/
-ranger/plugin/__pycache__/
+ranger/plugins/__pycache__/
