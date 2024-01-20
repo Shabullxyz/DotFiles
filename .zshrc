@@ -65,6 +65,9 @@ alias :R='reboot'
 alias py='python'
 alias gitlog='git log --all --graph --decorate --oneline'
 [ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
+alias config='/usr/bin/git --git-dir=$HOME/.cfg/ --work-tree=$HOME'
+
+
 
 # Plugins
 source /usr/share/zsh/plugins/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
@@ -137,3 +140,7 @@ bindkey "^[[H" beginning-of-line
 bindkey "^[[F" end-of-line
 bindkey "^[[3~" delete-char
 source ~/powerlevel10k/powerlevel10k.zsh-theme
+
+
+# prueba sobre enlaces 
+# de destino a origen correcto
