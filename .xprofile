@@ -1,9 +1,0 @@
-#!/bin/sh
-xrandr --output HDMI-A-0 --off --output HDMI-A-1 --mode 1920x1080 --pos 1280x0 --rotate normal --output DisplayPort-0 --mode 1280x720 --pos 0x0 --rotate normal
-picom &
-udiskie -t &
-feh --bg-scale ~/wallpaper.jpg &
-/bin/xfce4-power-manager &
-/usr/lib/polkit-gnome/polkit-gnome-authentication-agent-1 &
-
-
