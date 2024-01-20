@@ -1,4 +1,4 @@
 limpieza.py
 dotcopy.py
 update.sh
-qtile/__pycache__/
+qtile/__pycache__
