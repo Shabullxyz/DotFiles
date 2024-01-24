@@ -1,18 +1,8 @@
-#limpieza.py
-
-#dotcopy.py
-
-#update.sh
-
-#qtile/__pycache__
-
-#ranger/__pycache__
-
-
 # Archivos específicos
 dotcopy.py
 limpieza.py
 update.sh
+.gitconfig
 
 # Carpetas específicas
 qtile/__pycache__/

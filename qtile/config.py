@@ -41,7 +41,6 @@ keys = [
     Key([mod], "l", lazy.layout.right(), desc="Move focus to right"),
     Key([mod], "j", lazy.layout.down(), desc="Move focus down"),
     Key([mod], "k", lazy.layout.up(), desc="Move focus up"),
-    Key([mod], "space", lazy.layout.next(), desc="Move window focus to other window"),
     # Move windows between left/right columns or move up/down in current stack.
     # Moving out of range in Columns layout will create new column.
     Key([mod, "shift"], "h", lazy.layout.shuffle_left(), desc="Move window to the left"),
@@ -92,6 +91,9 @@ keys = [
     Key([mod, "control"], "bracketright", lazy.spawn("playerctl --player=spotify next"), desc="nextSpotify"),
     Key([mod, "control"], "bracketleft", lazy.spawn("playerctl --player=spotify previous"), desc="PreviosSpotify"),
     Key([mod, "control"], "backslash", lazy.spawn("playerctl --player=spotify play-pause"), desc="PlaySpotify"),
+    Key([mod], "space", lazy.spawn("kblyt.sh"), desc="chan key layout"),
+    #Key([mod], "slash", lazy.spawn("setxkbmap -layout es"), desc="Dist Espa"),
+    #Key([mod], "p", lazy.spawn("setxkbmap -layout us"), desc="Dist Englis"),
 
 ]
 
