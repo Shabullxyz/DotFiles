@@ -91,6 +91,7 @@ keys = [
     Key([mod, "control"], "bracketright", lazy.spawn("playerctl --player=spotify next"), desc="nextSpotify"),
     Key([mod, "control"], "bracketleft", lazy.spawn("playerctl --player=spotify previous"), desc="PreviosSpotify"),
     Key([mod, "control"], "backslash", lazy.spawn("playerctl --player=spotify play-pause"), desc="PlaySpotify"),
+    #Kenlayout EN ES
     Key([mod], "space", lazy.spawn("kblyt.sh"), desc="chan key layout"),
     #Key([mod], "slash", lazy.spawn("setxkbmap -layout es"), desc="Dist Espa"),
     #Key([mod], "p", lazy.spawn("setxkbmap -layout us"), desc="Dist Englis"),
@@ -155,10 +156,10 @@ layout_conf = {
 
 layouts = [
     #layout.Columns(border_focus_stack=["#ffffff", "#aaaaaa"], border_width=6),
+    layout.Bsp(**layout_conf),
     layout.Max(**layout_conf),
     # Try more layouts by unleashing below layouts.
     # layout.Stack(num_stacks=2),
-    layout.Bsp(**layout_conf),
     #layout.Matrix(**layout_conf),
     #layout.MonadTall(**layout_conf),
     #layout.MonadWide(**layout_conf),

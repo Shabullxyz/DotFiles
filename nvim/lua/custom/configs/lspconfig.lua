@@ -2,7 +2,7 @@ local on_attach = require("plugins.configs.lspconfig").on_attach
 local capabilities = require("plugins.configs.lspconfig").capabilities
 
 local lspconfig = require "lspconfig"
-local servers = { 
+local servers = {
   "html",
   "cssls",
   "clangd",
@@ -10,11 +10,12 @@ local servers = {
   "tsserver",
   "unocss",
   "bashls",
+  "astro",
 --  "black",
 --  "djlint",
---  "jedi-language-server",
+  -- "jedi-language-server",
 --  "mypy",
-  "pylsp",
+  -- "pylsp",
   "pyright",
 }
 

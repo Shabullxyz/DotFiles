@@ -13,10 +13,21 @@ M.treesitter = {
     "lua",
     "tsx",
     "typescript",
+    "toml",
+    "rust",
+    "php",
   },
 }
 
 M.nvimtree = {
+
+
+  view = {
+    adaptive_size = false,
+    side = "right",
+    width = 30,
+    preserve_window_proportions = true,
+  },
   filters = {
     dotfiles = true,
     custom = { "node_modules" },
@@ -63,7 +74,7 @@ M.mason = {
     "pyright",
 
 
-  },
+ },
 }
-
+--
 return M

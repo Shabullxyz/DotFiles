@@ -1,11 +1,12 @@
 {
     "editor.matchBrackets": "never",
-    "window.zoomLevel": 1,
+    "editor.tabSize": 4, 
+    "editor.wordWrap": "off",
     "workbench.sideBar.location": "right",
     "editor.fontFamily": "Hack Nerd Font Mono ",
-    "editor.cursorStyle": "block",
     "terminal.integrated.fontFamily": "\"Hack Nerd Font\", monospace",
     "terminal.external.linuxExec": "kitty",
+    "screencastMode.fontSize":20,
     "window.menuBarVisibility": "toggle",
     "workbench.editor.showTabs": "single",
     "workbench.colorTheme": "Gruvchad",
@@ -19,8 +20,9 @@
     "indenticator.width": 0.1,
     "editor.glyphMargin": false,
     "extensions.experimental.affinity": {
-        "asvetliakov.vscode-neovim": 1
+        "asvetliakov.vscode-neovim": 0
     },
+    "window.zoomLevel": 2,
 
 
 

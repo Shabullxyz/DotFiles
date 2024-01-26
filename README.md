@@ -8,15 +8,21 @@ Este repositorio contiene mi configuración personal de Dotfiles, diseñada para
 
 ## Estructura del Repositorio
 ```
-.
-├── dotcopy.py
+├── Code
+│   └── User
+│       └── settings.json
+├── Dotfiles.py
 ├── gtk-3.0
 │   └── bookmarks
-├── kblyt.sh
+├── inhome
+│   ├── .fzf.zsh
+│   ├── .gitconfig
+│   ├── .p10k.zsh
+│   ├── .xprofile
+│   └── .zshrc
 ├── kitty
 │   ├── color.ini
 │   └── kitty.conf
-├── limpieza.py
 ├── neofetch
 │   └── config.conf
 ├── nvim
@@ -34,9 +40,6 @@ Este repositorio contiene mi configuración personal de Dotfiles, diseñada para
 │           └── README.md
 ├── qtile
 │   ├── config.py
-│   ├── __pycache__
-│   │   ├── config.cpython-311.pyc
-│   │   └── spotify.cpython-311.pyc
 │   └── spotify.py
 ├── ranger
 │   ├── commands.py
@@ -44,21 +47,12 @@ Este repositorio contiene mi configuración personal de Dotfiles, diseñada para
 │   ├── plugins
 │   │   ├── devicons_linemode.py
 │   │   ├── __init__.py
-│   │   └── __pycache__
-│   │       ├── devicons_linemode.cpython-310.pyc
-│   │       ├── devicons_linemode.cpython-311.pyc
-│   │       ├── __init__.cpython-310.pyc
-│   │       └── __init__.cpython-311.pyc
-│   ├── __pycache__
-│   │   ├── devicons.cpython-310.pyc
-│   │   └── devicons.cpython-311.pyc
 │   ├── rc.conf
 │   ├── rifle.conf
 │   └── scope.sh
+├── README.md
 ├── rofi
 │   └── config.rasi
-├── settings.json
-├── update.sh
 └── xfce4
     └── xfconf
         └── xfce-perchannel-xml
@@ -67,4 +61,5 @@ Este repositorio contiene mi configuración personal de Dotfiles, diseñada para
             ├── xfce4-power-manager.xml
             └── xfce4-settings-manager.xml
 ```
-Este proyecto está bajo la Licencia [MIT](LICENSE).
+## Code 
+
