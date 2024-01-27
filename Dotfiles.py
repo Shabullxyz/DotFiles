@@ -41,7 +41,7 @@ def copiar_archivos(directorio_destino):
     os.makedirs(carpeta_inhome, exist_ok=True)
 
     # Archivos a copiar en la carpeta 'inhome' (excepto settings.json)
-    archivos_a_copiar = [".zshrc", ".xprofile", ".p10k.zsh", ".gitconfig", ".fzf.zsh"]
+    archivos_a_copiar = [".zshrc", ".xprofile", ".p10k.zsh", ".gitconfig", ".fzf.zsh", "kblyt.sh"]
 
     # Copiar los archivos en la carpeta 'inhome'
     for archivo in archivos_a_copiar:
